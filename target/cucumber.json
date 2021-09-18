@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12276955200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "StipDefin.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13345100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "StipDefin.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6235654300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StipDefin.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 149088700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StipDefin.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6623800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on home page",
+            "match": {
+              "location": "StipDefin.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "crmlogin.feature"
+  }
+]
